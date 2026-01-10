@@ -9,7 +9,7 @@ const UserStory = props => {
     <View style={style.storyContainer}>
       <UserProfileImage
         profileImage={props.profileImage}
-        imageDiemnsions={65}
+        imageDimensions={65}
       />
       <Text style={style.firstName}>{props.firstName}</Text>
     </View>

@@ -8,11 +8,11 @@ const UserProfileImage = props => {
     <View
       style={[
         style.userImageContainer,
-        { borderRadius: props.imageDiemnsions },
+        { borderRadius: props.imageDimensions },
       ]}
     >
       <Image
-        style={{ width: props.imageDiemnsions, height: props.imageDiemnsions }}
+        style={{ width: props.imageDimensions, height: props.imageDimensions }}
         source={props.profileImage}
       />
     </View>
